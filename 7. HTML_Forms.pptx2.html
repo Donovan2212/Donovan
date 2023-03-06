@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="NL">
+
+<head>
+
+<title>Doen 4</title>
+
+</head>
+
+<body>
+
+    <p> Vul het registratieformulier in. Velden met een * zijn verplicht.</p>
+    <form>
+    <fieldset>
+
+    <legend> Accountgegevens</legend>
+
+    
+        <label> Voornaam *</label>
+        <input type="text" required><br>
+    
+        <label> Familienaam *</label>
+        <input type="text" required><br>
+   
+        <label>Email adres *</label>
+        <input type="text" placeholder="name@example.com" required><br>
+    
+        <label> Password *</label>
+        <input type="password" minlength="8" maxlength="14" required>
+        <label> min 8 karakters, 1 cijfer, 1 hoodletter </label><br>
+ 
+        <label> Bevestigpassword *</label>
+        <input type="password" minlength="8" maxlength="14" required>
+    
+    </fieldset>
+    <fieldset>
+    <legend> Adresgegevens </legend>
+
+   
+        <label> Adres 1 *</label>
+        <input type="text" required><br>
+    
+        <Label> Adres 2</Label>
+        <input type="text"><br>
+ 
+        <label> Postcode *</label>
+        <input type="text" minlength="4" maxlength="6" required><br>
+  
+        <label> Stad *</label>
+        <input type="text" required><br>
+   
+        <label> Kies een land </label>
+        <select><option>België</option><option>Nederland</option>
+            <option>Amerika</option><option>Frankrijk</option>
+            <option>England</option><option>Canada</option>
+            <option>Zuid-Korea</option><option>Japan</option></select>
+
+    </fieldset>
+    <fieldset>
+    <legend> Persoonlijke gegevens </legend>
+
+        <label>GSM</label>
+        <input autofocus><br>
+
+        <label> Geboortedatum </label>
+        <input type="date">
+
+    <p> Hoe tevreden ben je? </p>
+    <input type="range"><br>
+
+        <input type="radio">Man<br>
+        <input type="radio">Vrouw<br>
+        <input type="radio">Onbekend<br>
+        Kies een opleiding <select><option>Graduaat Programmeren</option>
+            <option>Webtechnologie</option><option> CMS Intro
+            </option><option>CMS Development</option>
+            <option>OO Programmeren</option></select><br><br>    
+    <p> Kies een vak </p>
+    </fieldset>    
+</form>
+
+</body>
+
+</html>
